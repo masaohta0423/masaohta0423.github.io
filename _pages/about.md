@@ -8,8 +8,7 @@ redirect_from:
 ---
 
 Masahiro Ohta (太田雅啓) is a third-year undergraduate student at the University of Tokyo, Department of Precision Engineering.
-He conducts research on human augmentation and human–computer interaction at the Embodied Media Project, Keio Media Design.
-His research interests lie in Human-Computer Interaction (HCI), and assistive robotics.
+He conducts research on Human-Computer Interaction (HCI), and assistive robotics at the Embodied Media Project, Keio Media Design.
 
 Affiliation
 ======
