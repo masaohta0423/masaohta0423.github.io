@@ -31,6 +31,6 @@ Experience
 ======
 DIAMOND Award, Student Idea Factory (organized by the Japan Association for the Advancement of Science (JAAS)) -->
 
-Articles
+<!-- Articles
 ======
-- 
+-  -->
