@@ -26,10 +26,11 @@ Experience
 - 2025.4-:Research Associate, Embodied Media Project, Keio Uniersity Graduate School of Media Design
 - 2023.7-2025.3:Student Researcher, Research Center for Advanced Science and Technology, The University of Tokyo
 
-<!-- Awards
+Awards
 ======
-DIAMOND Award, Student Idea Factory (organized by the Japan Association for the Advancement of Science (JAAS)) -->
+- DIAMOND Award, Student Idea Factory (organized by the Japan Association for the Advancement of Science (JAAS))
 
+- Jury's Choice Awarad, Twentieth International Conference on Tangible, Embedded, and Embodied Interaction (TEI'26)
 <!-- Articles
 ======
 -  -->
