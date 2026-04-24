@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Masahiro Ohta (太田雅啓) is a third-year undergraduate student at the University of Tokyo, Department of Precision Engineering.
+Masahiro Ohta (太田雅啓) is a 4th-year undergraduate student at the University of Tokyo, Department of Precision Engineering.
 He conducts research on Human-Computer Interaction (HCI), and assistive robotics at the Embodied Media Project, Keio Media Design.
 
 Affiliation
@@ -30,7 +30,7 @@ Awards
 ======
 - DIAMOND Award, Student Idea Factory (organized by the Japan Association for the Advancement of Science (JAAS))
 
-- Jury's Choice Awarad, Twentieth International Conference on Tangible, Embedded, and Embodied Interaction (TEI'26)
+- Special Recognition Award (Runner-up), Twentieth International Conference on Tangible, Embedded, and Embodied Interaction (TEI'26)
 <!-- Articles
 ======
 -  -->

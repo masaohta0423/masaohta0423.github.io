@@ -6,7 +6,8 @@ layout: single
 ---
 Intercational Conference (Proceedings)
 -----
-1. **Masahiro Ohta**, Takatoshi Yoshida, Tomoya Sasaki, Jinsuke Morita, Hideaki Nii, Kouta Minamizawa. 2026. ROomBOT: A Room as an Assistive Robotic Interface based on Cable-Driven Parallel Robotics. In TEI2026.
+1. **Masahiro Ohta**, Takatoshi Yoshida, Tomoya Sasaki, Jinsuke Morita, Hideaki Nii, Kouta Minamizawa. 2026. ROomBOT: A Room as an Assistive Robotic Interface based on Cable-Driven Parallel Robotics. In TEI2026. (Acceptance rate: 23.2%)
+🏆 Special Recognition Award (Runner-up)
 
 
 Intercational Conference (Peer Reviewed Demo / Poster)
