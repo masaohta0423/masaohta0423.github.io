@@ -31,6 +31,3 @@ Awards
 - DIAMOND Award, Student Idea Factory (organized by the Japan Association for the Advancement of Science (JAAS))
 
 - Special Recognition Award (Runner-up), Twentieth International Conference on Tangible, Embedded, and Embodied Interaction (TEI'26)
-<!-- Articles
-======
--  -->
