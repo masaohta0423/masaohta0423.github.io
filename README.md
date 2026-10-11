@@ -11,3 +11,13 @@ Masahiro Ohta's personal research portfolio.
 - `images/` — profile image, favicon, and project thumbnails
 
 The site is plain HTML, CSS, and JavaScript and is served directly by GitHub Pages.
+
+## Build
+
+The Body Sublimation page is authored in `body-sublimation/index.md`. After editing it, regenerate the published HTML with:
+
+```sh
+npm run build
+```
+
+`body-sublimation/index.html` is generated output and should not be edited directly.

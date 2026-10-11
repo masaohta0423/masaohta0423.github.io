@@ -16,8 +16,8 @@ const projects = [
     thumbnail: "images/projects/BS_repimage.png",
     description: "Designing State-Changing Extended Hand for Embodied Out-of-Reach Interaction",
     links: {
-      // paper: "https://dl.acm.org/doi/10.1145/3830398.3830583"
-      // website: "/body-sublimation/"
+      paper: "/body-sublimation/body-sublimation-uist26.pdf",
+      website: "/body-sublimation/"
     }
   },
   {
