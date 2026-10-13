@@ -20,6 +20,10 @@ footer: "This website presents the Body Sublimation research project."
 
 # Body Sublimation: Designing State-Changing Extended Hand for Embodied Out-of-Reach Interaction
 
+## Preview Video
+
+https://www.youtube.com/watch?v=geMNsx8xzUg
+
 ## Abstract
 
 Recent research in extended reality and robotics has explored ways to extend human reach beyond the physical body. XR supports embodied interaction at a distance but cannot manipulate the real world; robot-mediated systems provide physical capability but often disrupt embodiment through latency, workspace limits, kinematic mismatch, and collision avoidance.
@@ -109,10 +113,6 @@ Body Sublimation extends the user's reachable space through everyday obstacles. 
 ![A user reaching through a curtain and handing a bottle to another person](assets/BS_app2.mp4)
 
 The extended hand can transition to gas, cross a curtain or wall, and become physically grounded again on the other side. This preserves a continuous bodily trajectory instead of making the user switch to a separate robotic agent.
-
-## Preview Video
-
-https://www.youtube.com/watch?v=geMNsx8xzUg
 
 ## BibTeX
 

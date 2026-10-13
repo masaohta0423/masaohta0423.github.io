@@ -261,6 +261,8 @@ function renderPage(metadata, document) {
   </header>
 
   <main>
+${renderSection(document.sections.find((section) => section.title === "Preview Video"))}
+
     <section class="abstract-overview page-container" aria-labelledby="abstract-heading">
       <div class="abstract-copy">
         <h2 id="abstract-heading">Abstract</h2>
@@ -271,7 +273,7 @@ ${renderParagraphs(document.sections.find((section) => section.title === "Abstra
       </figure>
     </section>
 
-${document.sections.filter((section) => section.title !== "Abstract").map(renderSection).join("\n\n")}
+${document.sections.filter((section) => section.title !== "Abstract" && section.title !== "Preview Video").map(renderSection).join("\n\n")}
 
   </main>
 
