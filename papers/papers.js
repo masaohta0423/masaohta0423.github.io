@@ -17,7 +17,8 @@ const projects = [
     description: "Designing State-Changing Extended Hand for Embodied Out-of-Reach Interaction",
     links: {
       paper: "/body-sublimation/body-sublimation-uist26.pdf",
-      website: "/body-sublimation/"
+      website: "/body-sublimation/",
+      video: "https://www.youtube.com/watch?v=geMNsx8xzUg"
     }
   },
   {
@@ -126,7 +127,7 @@ function highlightSelf(authors = "") {
 }
 
 function linkMarkup(links = {}) {
-  const labels = { paper: "Paper", website: "Website" };
+  const labels = { paper: "Paper", website: "Website", ...(links.video ? { video: "Video" } : {}) };
   return Object.entries(labels).map(([key, label]) => {
     const url = links[key];
     if (!url) return `<span title="Link will be added later">${label} · Soon</span>`;
