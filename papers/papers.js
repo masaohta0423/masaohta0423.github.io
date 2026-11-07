@@ -16,7 +16,7 @@ const projects = [
     thumbnail: "images/projects/BS_repimage.png",
     description: "Designing State-Changing Extended Hand for Embodied Out-of-Reach Interaction",
     links: {
-      paper: "/body-sublimation/body-sublimation-uist26.pdf",
+      paper: "https://dl.acm.org/doi/10.1145/3830398.3830583",
       website: "/body-sublimation/",
       video: "https://www.youtube.com/watch?v=geMNsx8xzUg"
     }
@@ -55,8 +55,8 @@ const publications = [
     authors: "Masahiro Ohta*, Reigo Ban*, Hideaki Nii, Guillaume Gourmelen, Takuji Narumi, Mauricio Sousa, Takatoshi Yoshida, Kouta Minamizawa",
     booktitle: "Proceedings of the 39th Annual ACM Symposium on User Interface Software and Technology (UIST'26)",
     publisher: "ACM",
-    year: 2026
-    // doi: "https://dl.acm.org/doi/10.1145/3830398.3830583"
+    year: 2026,
+    doi: "https://dl.acm.org/doi/10.1145/3830398.3830583"
   },
   {
     title: "ROomBOT: A Room as an Assistive Robotic Interface based on Cable-Driven Parallel Robotics",
