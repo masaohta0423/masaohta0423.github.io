@@ -12,6 +12,7 @@ const projects = [
   // },
   {
     title: "Body Sublimation",
+    conference: "UIST2026",
     shortTitle: "BS",
     thumbnail: "images/projects/BS_repimage.png",
     description: "Designing State-Changing Extended Hand for Embodied Out-of-Reach Interaction",
@@ -23,6 +24,7 @@ const projects = [
   },
   {
     title: "ROomBOT",
+    conference: "TEI2026",
     shortTitle: "RB",
     thumbnail: "images/projects/RB_repimage.png",
     description: "A room as an assistive robotic interface based on cable-driven parallel robotics.",
@@ -137,54 +139,44 @@ function linkMarkup(links = {}) {
 }
 
 function renderProjects() {
-  const container = document.getElementById("project-list");
-  projects.forEach((project) => {
-    const article = document.createElement("article");
-    article.className = "project";
+  return projects.map((project) => {
     const visual = project.thumbnail
       ? `<img src="${project.thumbnail}" alt="${project.title} thumbnail">`
       : `<span aria-hidden="true">${project.shortTitle}</span>`;
-    article.innerHTML = `
-      <div class="project__visual">${visual}</div>
+    const conference = project.conference
+      ? `<span class="project__conference">${project.conference}</span>`
+      : "";
+    return `<article class="project">
+      <div class="project__visual">${visual}${conference}</div>
       <div class="project__content">
         <h3>${project.title}</h3>
         <p>${project.description}</p>
         <div class="links">${linkMarkup(project.links)}</div>
-      </div>`;
-    container.appendChild(article);
-  });
+      </div>
+    </article>`;
+  }).join("\n");
 }
 
-function renderEntries(containerId, entries) {
-  const container = document.getElementById(containerId);
+function renderEntries(entries) {
   if (!entries.length) {
-    const empty = document.createElement("li");
-    empty.className = "empty-state";
-    empty.textContent = "To be updated.";
-    container.appendChild(empty);
-    return;
+    return '<li class="empty-state">To be updated.</li>';
   }
 
-  entries.forEach((entry) => {
-    const item = document.createElement("li");
-    item.className = "entry";
+  return entries.map((entry) => {
     const title = entry.titleUrl
       ? `<a href="${entry.titleUrl}" target="_blank" rel="noopener">${entry.title}</a>`
       : entry.title;
-    item.innerHTML = `
+    return `<li class="entry">
       <p class="entry__title">${title}</p>
       ${entry.authors ? `<p class="entry__authors">${highlightSelf(entry.authors)}</p>` : ""}
       ${entry.venue ? `<p class="entry__venue">${entry.venue}</p>` : ""}
-      ${entry.links ? `<div class="links">${linkMarkup(entry.links)}</div>` : ""}`;
-    container.appendChild(item);
-  });
+      ${entry.links ? `<div class="links">${linkMarkup(entry.links)}</div>` : ""}
+    </li>`;
+  }).join("\n");
 }
 
 function renderPublications() {
-  const container = document.getElementById("publication-list");
-  publications.forEach((publication) => {
-    const item = document.createElement("li");
-    item.className = "entry";
+  return publications.map((publication) => {
     const title = publication.doi
       ? `<a href="${publication.doi}" target="_blank" rel="noopener">${publication.title}</a>`
       : publication.title;
@@ -197,15 +189,17 @@ function renderPublications() {
     const bibliographicInfo = publication.booktitle === "Details coming soon"
       ? publication.booktitle
       : `In <em>${publication.booktitle}</em>${locator}.${publisherAndYear ? ` ${publisherAndYear}.` : ""}`;
-    item.innerHTML = `
+    return `<li class="entry">
       <p class="entry__title">${title}</p>
       <p class="entry__authors">${highlightSelf(publication.authors)}</p>
-      <p class="entry__venue">${bibliographicInfo}</p>`;
-    container.appendChild(item);
-  });
+      <p class="entry__venue">${bibliographicInfo}</p>
+    </li>`;
+  }).join("\n");
 }
 
-renderProjects();
-renderPublications();
-renderEntries("award-list", awards);
-renderEntries("domestic-list", domesticConferences);
+module.exports = {
+  "project-list": renderProjects(),
+  "publication-list": renderPublications(),
+  "award-list": renderEntries(awards),
+  "domestic-list": renderEntries(domesticConferences)
+};

@@ -1,6 +1,6 @@
 ---
-page_title: "Body Sublimation | UIST 2026"
-description: "Body Sublimation combines XR and a hidden robotic hand to enable embodied physical interaction beyond natural reach."
+page_title: "Body Sublimation | Masahiro Ohta et al. | UIST 2026"
+description: "Body Sublimation (UIST 2026) by Masahiro Ohta, Reigo Ban and colleagues combines XR and a hidden robotic hand to enable embodied physical interaction beyond natural reach."
 og_description: "Designing State-Changing Extended Hand for Embodied Out-of-Reach Interaction."
 og_image: "https://masaohta0423.github.io/images/projects/BS_repimage.png"
 canonical_url: "https://masaohta0423.github.io/body-sublimation/"

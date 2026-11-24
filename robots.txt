@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://masaohta0423.github.io/sitemap.xml
