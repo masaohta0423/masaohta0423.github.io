@@ -41,8 +41,8 @@ const publications = [
     authors: "Yuya Kato*, Masahiro Ohta*, Zhihong Ding*",
     booktitle: "ACM SIGGRAPH Asia 2026 Emerging Technologies",
     publisher: "ACM",
-    year: 2026
-    // doi: "XXXX"
+    year: 2026,
+    doi: "https://dl.acm.org/doi/10.1145/3829251.3839418"
   },
   // {
   //   title: "ALTER: Arm–Leg Transformation through Embodied Reconfiguration for Adaptive Loco-Manipulation",
